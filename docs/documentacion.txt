@@ -4,8 +4,26 @@
 https://www.opencart.com/index.php?route=cms/download/download&download_id=55
 
 # Instalarlo
+
 # hacer el vhost localmente
+
 # Luego de copiar todos los archivos dar permisos
-    chmod 755 system/storage/ -R
+    chmod 777 system/storage/ -R
+    chmod 777 -R image/
+
 # Crear DB
+
+# copiar configs
+cp config-dist.php config.php
+cp admin/config-dist.php admin/config.php
+
+#permisos
+chmod 777 admin/config.php
+chmod 777 config.php
+
 # ajecutarlo via explorador para que se instale
+
+# eliminar install directorio
+
+
+
